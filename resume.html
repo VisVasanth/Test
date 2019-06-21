@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Vis Vasanth Resume</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900%7CMontserrat:400,700%7CPT+Serif' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Raleway:400,500,600,700,800&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrapPages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+    <link rel="stylesheet" type="text/css" href='css/style-bootstrap.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg fixed-top" style=" ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"> <img src="images/Designsbyvis-dark.png" alt="Designs by Vis logo" id="navLogo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fa fa-align-justify" aria-hidden="true" style="color: #000"></i>
+               </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="myWorks.html#works">Works
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="myWorks.html#myStory">My Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#connect">Connect</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content -->
+        <div class="container">
+            <div class="animated fadeInUp">
+                <div class="row  animated fadeInUp">
+                    <div class="col-sm-12 text-center section-header-top">
+                        <h1> RESUME </h1>
+                        <br>
+                        <iframe src="githubVisVasanthRESUME.pdf" width="100%" height="1000px" style="background-color: black"></iframe>
+
+                    </div>
+                </div>
+
+                <footer class="footer " id="connect ">
+                    <div>
+                        <div class="row section-header animated fadeInUp ">
+                            <div class="col-sm-12 text-center ">
+                                <h1> CONNECT WITH VIS </h1>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="social-footer ">
+                                <a href="https://www.linkedin.com/in/dr-vis-vasanth/ ">
+                                    <span class="fa fa-linkedin fa-2x "></span>
+                                </a>
+                                <a href="https://www.behance.net/VisVasanth ">
+                                    <span class="fa fa-behance fa-2x "></span>
+                                </a>
+                                <a href="https://github.com/VisVasanth ">
+                                    <span class="fa fa-github fa-2x "></span>
+                                </a>
+                                <a href="https://twitter.com/VisDPT ">
+                                    <span class="fa fa-twitter fa-2x "></span>
+                                </a>
+                            </li>
+                            <li class="copyright-footer ">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy; All Rights Reserved Vis Vasanth</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = [1, 1];
+        var slideId = ["mySlides1 ", "mySlides2 ", "mySlides3 ", "mySlides4 "]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        showSlides(-2, 2);
+        showSlides(-3, 3);
+
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+            var i;
+            var x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) {
+                slideIndex[no] = 1
+            }
+            if (n < 1) {
+                slideIndex[no] = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none ";
+            }
+            x[slideIndex[no] - 1].style.display = "block ";
+        }
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.slim.min.js "></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>
